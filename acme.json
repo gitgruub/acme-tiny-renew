@@ -1,0 +1,8 @@
+{
+"ACMEUSER":"acme",
+"ETCDIR":"/etc/acme/",
+"WEBDIR":"/var/www/acme",
+"MAILADDR":"example@example.com",
+"RENEW":"/usr/local/bin/acme_tiny_renew.py"
+}
+
