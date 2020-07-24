@@ -28,12 +28,13 @@ internals
 ==========
 
 acme_tiny_renew:
-* takes a dir, finds all subdirs
-* finds the CSR for each subdir
-* renews them with acme_tiny, writing out a datestamped cert
-* sanity checks the renewed cert
-* updates a symlink to the new cert (cert.crt)
-* copies the intermediate cert to a separate file (cert.crt.int)
+
+- takes a dir, finds all subdirs
+- finds the CSR for each subdir
+- renews them with acme_tiny, writing out a datestamped cert
+- sanity checks the renewed cert
+- updates a symlink to the new cert (cert.crt)
+- copies the intermediate cert to a separate file (cert.crt.int)
 
 
 
